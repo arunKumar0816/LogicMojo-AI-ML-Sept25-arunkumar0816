@@ -1,0 +1,48 @@
+timestamp,session_id,turn_id,user_transcript,detected_intent,detected_entities,ai_response,response_time_ms,tts_engine,stt_engine
+2026-05-16T12:20:55.213876,20260516_122051,1,Hello! How are you?,greeting,{},Hello! How can I help you?,2082,pyttsx3,google
+2026-05-16T12:20:59.548919,20260516_122051,2,What tasks do I have today?,task_query,"{""date"": [""today""]}",You have no tasks right now.,0,pyttsx3,google
+2026-05-16T12:21:00.062876,20260516_122051,3,Create task: Finish voice agent project,task_query,{},Task 'Finish voice agent project' created. You have 1 task(s).,0,pyttsx3,google
+2026-05-16T12:21:00.518469,20260516_122051,4,Create task: Review pull request for backend,task_query,{},Task 'Review pull request for backend' created. You have 2 task(s).,0,pyttsx3,google
+2026-05-16T12:21:03.064565,20260516_122051,5,Remind me to call John at 3:00 PM,reminder,"{""time"": [""3:00 PM""], ""number"": [""3"", ""00""]}",Reminder noted. Start Ollama for full support.,2067,pyttsx3,google
+2026-05-16T12:21:05.638952,20260516_122051,6,Summarize this message: The quarterly earnings report for Q3 showed a 12% growth in revenue.,summarize,"{""number"": [""12""]}",Share the text you want me to summarize.,2057,pyttsx3,google
+2026-05-16T12:21:08.193856,20260516_122051,7,What is machine learning?,definition,{},Start Ollama for detailed explanations.,2043,pyttsx3,google
+2026-05-16T12:21:08.713914,20260516_122051,8,Calculate 245 * 18 + 300,calculation,"{""number"": [""245"", ""18"", ""300""]}",The result is 4710.,0,pyttsx3,google
+2026-05-16T12:21:11.277055,20260516_122051,9,My email is alice@example.com and Bob's is bob@company.org,general,"{""email"": [""alice@example.com"", ""bob@company.org""]}",You said: My email is alice@example.com and Bob's is bob@company.org. Start Ollama for full AI responses.,2079,pyttsx3,google
+2026-05-16T12:21:13.864338,20260516_122051,10,The meeting is scheduled for 2024-12-25 at 10:30 AM,schedule,"{""phone"": [""2024-12-25""], ""time"": [""10:30 AM""], ""number"": [""2024"", ""12"", ""25"", ""10"", ""30""]}",You said: The meeting is scheduled for 2024-12-25 at 10:30 AM. Start Ollama for full AI responses.,2065,pyttsx3,google
+2026-05-16T12:21:16.437701,20260516_122051,11,Please call me at +1-800-555-1234,general,"{""phone"": [""+1-800-555-1234""], ""number"": [""1"", ""800"", ""555"", ""1234""]}",You said: Please call me at +1-800-555-1234. Start Ollama for full AI responses.,2067,pyttsx3,google
+2026-05-16T12:21:16.959458,20260516_122051,12,What tasks do I have?,task_query,{},Your tasks: 1. Finish voice agent project; 2. Review pull request for backend,0,pyttsx3,google
+2026-05-16T12:21:19.464396,20260516_122051,13,Tell me a joke,joke,{},Why did the AI cross the road? To get to the other dataset!,2037,pyttsx3,google
+2026-05-16T12:21:22.038357,20260516_122051,14,Check the weather in Bengaluru,weather,{},Cannot fetch weather. Please check a weather app.,2053,pyttsx3,google
+2026-05-16T12:21:24.624212,20260516_122051,15,Help me understand how to use this assistant,help,{},"I handle tasks, reminders, calculations and general questions.",2063,pyttsx3,google
+2026-05-16T12:21:27.211111,20260516_122051,16,Search for Python voice recognition libraries,general,{},You said: Search for Python voice recognition libraries. Start Ollama for full AI responses.,2064,pyttsx3,google
+2026-05-16T12:21:27.717820,20260516_122051,17,Goodbye!,farewell,{},Goodbye! Session ending.,0,pyttsx3,google
+2026-05-16T12:30:14.618935,20260516_123012,1,Hello! How are you?,greeting,{},Hello! How can I help you?,2070,pyttsx3,google
+2026-05-16T12:30:18.809166,20260516_123012,2,What tasks do I have today?,task_query,"{""date"": [""today""]}",You have no tasks right now.,0,pyttsx3,google
+2026-05-16T12:30:19.365808,20260516_123012,3,Create task: Finish voice agent project,task_query,{},Task 'Finish voice agent project' created. You have 1 task(s).,0,pyttsx3,google
+2026-05-16T12:30:19.832945,20260516_123012,4,Create task: Review pull request for backend,task_query,{},Task 'Review pull request for backend' created. You have 2 task(s).,0,pyttsx3,google
+2026-05-16T12:30:22.373400,20260516_123012,5,Remind me to call John at 3:00 PM,reminder,"{""time"": [""3:00 PM""], ""number"": [""3"", ""00""]}",Reminder noted. Start Ollama for full support.,2069,pyttsx3,google
+2026-05-16T12:30:24.961848,20260516_123012,6,Summarize this message: The quarterly earnings report for Q3 showed a 12% growth in revenue.,summarize,"{""number"": [""12""]}",Share the text you want me to summarize.,2070,pyttsx3,google
+2026-05-16T12:30:27.544126,20260516_123012,7,What is machine learning?,definition,{},Start Ollama for detailed explanations.,2068,pyttsx3,google
+2026-05-16T12:30:28.064527,20260516_123012,8,Calculate 245 * 18 + 300,calculation,"{""number"": [""245"", ""18"", ""300""]}",The result is 4710.,0,pyttsx3,google
+2026-05-16T12:30:30.545904,20260516_123012,9,My email is alice@example.com and Bob's is bob@company.org,general,"{""email"": [""alice@example.com"", ""bob@company.org""]}",You said: My email is alice@example.com and Bob's is bob@company.org. Start Ollama for full AI responses.,2039,pyttsx3,google
+2026-05-16T12:30:33.149700,20260516_123012,10,The meeting is scheduled for 2024-12-25 at 10:30 AM,schedule,"{""phone"": [""2024-12-25""], ""time"": [""10:30 AM""], ""number"": [""2024"", ""12"", ""25"", ""10"", ""30""]}",You said: The meeting is scheduled for 2024-12-25 at 10:30 AM. Start Ollama for full AI responses.,2064,pyttsx3,google
+2026-05-16T12:30:35.751608,20260516_123012,11,Please call me at +1-800-555-1234,general,"{""phone"": [""+1-800-555-1234""], ""number"": [""1"", ""800"", ""555"", ""1234""]}",You said: Please call me at +1-800-555-1234. Start Ollama for full AI responses.,2052,pyttsx3,google
+2026-05-16T12:30:36.275355,20260516_123012,12,What tasks do I have?,task_query,{},Your tasks: 1. Finish voice agent project; 2. Review pull request for backend,0,pyttsx3,google
+2026-05-16T12:30:38.792022,20260516_123012,13,Tell me a joke,joke,{},Why did the AI cross the road? To get to the other dataset!,2049,pyttsx3,google
+2026-05-16T12:30:41.362491,20260516_123012,14,Check the weather in Bengaluru,weather,{},Cannot fetch weather. Please check a weather app.,2052,pyttsx3,google
+2026-05-16T12:30:43.963317,20260516_123012,15,Help me understand how to use this assistant,help,{},"I handle tasks, reminders, calculations and general questions.",2063,pyttsx3,google
+2026-05-16T12:30:46.508863,20260516_123012,16,Search for Python voice recognition libraries,general,{},You said: Search for Python voice recognition libraries. Start Ollama for full AI responses.,2038,pyttsx3,google
+2026-05-16T12:30:47.058746,20260516_123012,17,Goodbye!,farewell,{},Goodbye! Session ending.,0,pyttsx3,google
+2026-05-16T12:35:01.251422,20260516_123454,1,Hi,greeting,{},Hello!,2843,pyttsx3,google
+2026-05-16T12:35:42.065990,20260516_123454,2,What is machine learning?,definition,{},"Machine learning is a subfield of artificial intelligence (AI) that involves using algorithms and statistical models to enable machines to learn from data, make decisions, and improve their performance on a specific task over time.
+
+In machine learning, the goal is to train a model on a large dataset, where the model learns to predict the output for new, unseen data. The model can then be used to make predictions or decisions based on new input data.
+
+Machine learning has many applications, such as image and speech recognition, natural language processing, recommendation systems, and autonomous vehicles. It is a powerful tool that can help us automate decision-making processes, improve the accuracy of predictions, and enable machines to work more efficiently and effectively.",27905,pyttsx3,google
+2026-05-16T12:46:58.626450,20260516_124529,1,weather,weather,{},Cannot fetch weather. Please check a weather app.,62119,pyttsx3,google
+2026-05-16T14:03:48.912186,20260516_140336,1,hi,greeting,{},Hello! It's nice to meet you. Is there something I can help you with or would you like to chat?,5421,pyttsx3,google
+2026-05-16T14:04:45.121351,20260516_140336,2,hi,greeting,{},"Hi there! It looks like you're trying to use the ""<<"" and "">>"" symbols as a way to communicate with me. However, these symbols are not actually a way of communication in the classical sense. Instead, they are used to indicate the beginning and end of a message in certain types of computer programming languages.
+
+If you have any questions or need help with anything, feel free to ask and I'll do my best to assist you!",14896,pyttsx3,google
+2026-05-16T14:34:16.253142,20260516_143351,1,hi how are you,greeting,{},"I'm doing well, thank you for asking! I hope you're having a great day. Is there anything you want to talk about or ask?",14748,pyttsx3,google
+2026-05-16T16:04:21.553865,20260516_160358,1,hi how are you,greeting,{},"I'm doing well, thanks for asking! It's great to hear that you're feeling better. Is there anything else you'd like to talk about or any questions you have? I'm here to help with any information or advice you might need.",14911,pyttsx3,google

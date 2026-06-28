@@ -1,1 +1,0 @@
-timestamp,session_id,turn_id,user_transcript,detected_intent,detected_entities,ai_response,response_time_ms,tts_engine,stt_engine
